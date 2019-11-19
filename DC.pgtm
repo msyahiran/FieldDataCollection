@@ -1,0 +1,1108 @@
+<Project version="18.3.0.8" edition="pro" localizationFileName="C:\Program Files (x86)\SQL Maestro Group\PHP Generator for MySQL Professional\lang.en.php" phpDriver="1" outputPath="C:\xampp\htdocs\dc" copySystemFiles="true" generateModifiedDataOnly="true" outputFilesExtension="php" colorSchemeName="united-compact">
+  <ConnectionOptions host="localhost" port="0" login="root" password="" database="datacollect" client_encoding="utf8" allow_old_password="false">
+    <ssh_secure secure="false" port="22" authentication_mode="0"/>
+    <http_tunnel tunneling="false" url="">
+      <http_proxy_server use_proxy="false" port="8080"/>
+      <http_authentication/>
+    </http_tunnel>
+  </ConnectionOptions>
+  <ScriptConnectionOptions host="localhost" port="0" login="root" password="" database="datacollect" client_encoding="utf8" allow_old_password="false">
+    <ssh_secure secure="false" port="22" authentication_mode="0"/>
+    <http_tunnel tunneling="false" url="">
+      <http_proxy_server use_proxy="false" port="8080"/>
+      <http_authentication/>
+    </http_tunnel>
+  </ScriptConnectionOptions>
+  <DataSources>
+    <DataSource name="spad analysis"/>
+    <DataSource name="spad reading list"/>
+    <DataSource name="decagon reading list"/>
+    <DataSource name="greenseeker reading"/>
+    <DataSource name="greenseeker analysis"/>
+  </DataSources>
+  <Presentation disableMagicQuotesRuntime="false" showEnvironmentVariables="false" showExecutedQueries="false" showPHPErrorsAndWarnings="false">
+    <Pages>
+      <Page type="table" tableName="spad reading list" numberByDataSource="0" fileName="spad_reading_list" caption="Spad Reading List" shortCaption="Spad Reading List" groupName="SPAD" addSeparator="false" horizontalFilterCondition="" recordsPerPage="20" NavigatorPosition="3" insertAbilityMode="0" viewAbilityMode="0" editAbilityMode="0" multiEditAbility="0" copyAbilityMode="0" contentEncoding="UTF-8" exportAllRecordsAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" exportRecordFromViewFormAvailable="31" printAvailable="13" useActionImages="true" showKeyColumnsImagesInGridHeader="false">
+        <BeforeGridText/>
+        <DetailedDescription/>
+        <ColumnPresentations>
+          <ColumnPresentation fieldName="Date" caption="Date" selectedFilterOperators="2031871">
+            <ViewProperties type="dateTime" dateTimeKind="1"/>
+            <EditProperties type="dateTime" dateTimeFormat="Y-m-d" dateTimeKind="1" firstDayOfWeek="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Sample" caption="Sample" showColumnFilter="false" selectedFilterOperators="1589247">
+            <ViewProperties type="text"/>
+            <EditProperties type="textBox" maxLength="5"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Sub Block 1" caption="Sub Block 1" showColumnFilter="false" canSetNull="true" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Sub Block 2" caption="Sub Block 2" showColumnFilter="false" canSetNull="true" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Sub Block 3" caption="Sub Block 3" showColumnFilter="false" canSetNull="true" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Sub Block 4" caption="Sub Block 4" showColumnFilter="false" canSetNull="true" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Sub Block 5" caption="Sub Block 5" showColumnFilter="false" canSetNull="true" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+        </ColumnPresentations>
+        <Columns>
+          <List>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Sub Block 1"/>
+            <Column fieldName="Sub Block 2"/>
+            <Column fieldName="Sub Block 3"/>
+            <Column fieldName="Sub Block 4"/>
+            <Column fieldName="Sub Block 5"/>
+          </List>
+          <View>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Sub Block 1"/>
+            <Column fieldName="Sub Block 2"/>
+            <Column fieldName="Sub Block 3"/>
+            <Column fieldName="Sub Block 4"/>
+            <Column fieldName="Sub Block 5"/>
+          </View>
+          <Edit>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Sub Block 1"/>
+            <Column fieldName="Sub Block 2"/>
+            <Column fieldName="Sub Block 3"/>
+            <Column fieldName="Sub Block 4"/>
+            <Column fieldName="Sub Block 5"/>
+          </Edit>
+          <Insert>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Sub Block 1"/>
+            <Column fieldName="Sub Block 2"/>
+            <Column fieldName="Sub Block 3"/>
+            <Column fieldName="Sub Block 4"/>
+            <Column fieldName="Sub Block 5"/>
+          </Insert>
+          <QuickFilter>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Sub Block 1"/>
+            <Column fieldName="Sub Block 2"/>
+            <Column fieldName="Sub Block 3"/>
+            <Column fieldName="Sub Block 4"/>
+            <Column fieldName="Sub Block 5"/>
+          </QuickFilter>
+          <FilterBuilder>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Sub Block 1"/>
+            <Column fieldName="Sub Block 2"/>
+            <Column fieldName="Sub Block 3"/>
+            <Column fieldName="Sub Block 4"/>
+            <Column fieldName="Sub Block 5"/>
+          </FilterBuilder>
+          <Print>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Sub Block 1"/>
+            <Column fieldName="Sub Block 2"/>
+            <Column fieldName="Sub Block 3"/>
+            <Column fieldName="Sub Block 4"/>
+            <Column fieldName="Sub Block 5"/>
+          </Print>
+          <Export>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Sub Block 1"/>
+            <Column fieldName="Sub Block 2"/>
+            <Column fieldName="Sub Block 3"/>
+            <Column fieldName="Sub Block 4"/>
+            <Column fieldName="Sub Block 5"/>
+          </Export>
+          <Compare>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Sub Block 1"/>
+            <Column fieldName="Sub Block 2"/>
+            <Column fieldName="Sub Block 3"/>
+            <Column fieldName="Sub Block 4"/>
+            <Column fieldName="Sub Block 5"/>
+          </Compare>
+          <MultiEdit>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Sub Block 1"/>
+            <Column fieldName="Sub Block 2"/>
+            <Column fieldName="Sub Block 3"/>
+            <Column fieldName="Sub Block 4"/>
+            <Column fieldName="Sub Block 5"/>
+          </MultiEdit>
+        </Columns>
+        <Details/>
+        <RecordPermissions useRecordPermissions="false"/>
+        <PartitionNavigators/>
+      </Page>
+      <Page type="table" tableName="spad analysis" numberByDataSource="0" fileName="spad_analysis" caption="Spad Analysis" shortCaption="Spad Analysis" groupName="SPAD" addSeparator="false" horizontalFilterCondition="" recordsPerPage="20" NavigatorPosition="3" insertAbilityMode="0" viewAbilityMode="0" editAbilityMode="0" multiEditAbility="0" copyAbilityMode="0" contentEncoding="UTF-8" exportAllRecordsAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" exportRecordFromViewFormAvailable="31" printAvailable="13" useActionImages="true" showKeyColumnsImagesInGridHeader="false">
+        <BeforeGridText/>
+        <DetailedDescription/>
+        <ColumnPresentations>
+          <ColumnPresentation fieldName="Date" caption="Date" selectedFilterOperators="2031871">
+            <ViewProperties type="dateTime" dateTimeKind="1"/>
+            <EditProperties type="dateTime" dateTimeFormat="Y-m-d" dateTimeKind="1" firstDayOfWeek="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Avg Sub Block 1" caption="Avg Sub Block 1" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Max Sub Block 1" caption="Max Sub Block 1" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Avg Sub Block 2" caption="Avg Sub Block 2" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Max Sub Block 2" caption="Max Sub Block 2" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Avg Sub Block 3" caption="Avg Sub Block 3" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Max Sub Block 3" caption="Max Sub Block 3" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Avg Sub Block 4" caption="Avg Sub Block 4" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Max Sub Block 4" caption="Max Sub Block 4" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Avg Sub Block 5" caption="Avg Sub Block 5" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Max Sub Block 5" caption="Max Sub Block 5" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+        </ColumnPresentations>
+        <Columns>
+          <List>
+            <Column fieldName="Date"/>
+            <Column fieldName="Avg Sub Block 1"/>
+            <Column fieldName="Max Sub Block 1"/>
+            <Column fieldName="Avg Sub Block 2"/>
+            <Column fieldName="Max Sub Block 2"/>
+            <Column fieldName="Avg Sub Block 3"/>
+            <Column fieldName="Max Sub Block 3"/>
+            <Column fieldName="Avg Sub Block 4"/>
+            <Column fieldName="Max Sub Block 4"/>
+            <Column fieldName="Avg Sub Block 5"/>
+            <Column fieldName="Max Sub Block 5"/>
+          </List>
+          <View>
+            <Column fieldName="Date"/>
+            <Column fieldName="Avg Sub Block 1"/>
+            <Column fieldName="Max Sub Block 1"/>
+            <Column fieldName="Avg Sub Block 2"/>
+            <Column fieldName="Max Sub Block 2"/>
+            <Column fieldName="Avg Sub Block 3"/>
+            <Column fieldName="Max Sub Block 3"/>
+            <Column fieldName="Avg Sub Block 4"/>
+            <Column fieldName="Max Sub Block 4"/>
+            <Column fieldName="Avg Sub Block 5"/>
+            <Column fieldName="Max Sub Block 5"/>
+          </View>
+          <Edit>
+            <Column fieldName="Date"/>
+            <Column fieldName="Avg Sub Block 1"/>
+            <Column fieldName="Max Sub Block 1"/>
+            <Column fieldName="Avg Sub Block 2"/>
+            <Column fieldName="Max Sub Block 2"/>
+            <Column fieldName="Avg Sub Block 3"/>
+            <Column fieldName="Max Sub Block 3"/>
+            <Column fieldName="Avg Sub Block 4"/>
+            <Column fieldName="Max Sub Block 4"/>
+            <Column fieldName="Avg Sub Block 5"/>
+            <Column fieldName="Max Sub Block 5"/>
+          </Edit>
+          <Insert>
+            <Column fieldName="Date"/>
+            <Column fieldName="Avg Sub Block 1"/>
+            <Column fieldName="Max Sub Block 1"/>
+            <Column fieldName="Avg Sub Block 2"/>
+            <Column fieldName="Max Sub Block 2"/>
+            <Column fieldName="Avg Sub Block 3"/>
+            <Column fieldName="Max Sub Block 3"/>
+            <Column fieldName="Avg Sub Block 4"/>
+            <Column fieldName="Max Sub Block 4"/>
+            <Column fieldName="Avg Sub Block 5"/>
+            <Column fieldName="Max Sub Block 5"/>
+          </Insert>
+          <QuickFilter>
+            <Column fieldName="Date"/>
+            <Column fieldName="Avg Sub Block 1"/>
+            <Column fieldName="Max Sub Block 1"/>
+            <Column fieldName="Avg Sub Block 2"/>
+            <Column fieldName="Max Sub Block 2"/>
+            <Column fieldName="Avg Sub Block 3"/>
+            <Column fieldName="Max Sub Block 3"/>
+            <Column fieldName="Avg Sub Block 4"/>
+            <Column fieldName="Max Sub Block 4"/>
+            <Column fieldName="Avg Sub Block 5"/>
+            <Column fieldName="Max Sub Block 5"/>
+          </QuickFilter>
+          <FilterBuilder>
+            <Column fieldName="Date"/>
+            <Column fieldName="Avg Sub Block 1"/>
+            <Column fieldName="Max Sub Block 1"/>
+            <Column fieldName="Avg Sub Block 2"/>
+            <Column fieldName="Max Sub Block 2"/>
+            <Column fieldName="Avg Sub Block 3"/>
+            <Column fieldName="Max Sub Block 3"/>
+            <Column fieldName="Avg Sub Block 4"/>
+            <Column fieldName="Max Sub Block 4"/>
+            <Column fieldName="Avg Sub Block 5"/>
+            <Column fieldName="Max Sub Block 5"/>
+          </FilterBuilder>
+          <Print>
+            <Column fieldName="Date"/>
+            <Column fieldName="Avg Sub Block 1"/>
+            <Column fieldName="Max Sub Block 1"/>
+            <Column fieldName="Avg Sub Block 2"/>
+            <Column fieldName="Max Sub Block 2"/>
+            <Column fieldName="Avg Sub Block 3"/>
+            <Column fieldName="Max Sub Block 3"/>
+            <Column fieldName="Avg Sub Block 4"/>
+            <Column fieldName="Max Sub Block 4"/>
+            <Column fieldName="Avg Sub Block 5"/>
+            <Column fieldName="Max Sub Block 5"/>
+          </Print>
+          <Export>
+            <Column fieldName="Date"/>
+            <Column fieldName="Avg Sub Block 1"/>
+            <Column fieldName="Max Sub Block 1"/>
+            <Column fieldName="Avg Sub Block 2"/>
+            <Column fieldName="Max Sub Block 2"/>
+            <Column fieldName="Avg Sub Block 3"/>
+            <Column fieldName="Max Sub Block 3"/>
+            <Column fieldName="Avg Sub Block 4"/>
+            <Column fieldName="Max Sub Block 4"/>
+            <Column fieldName="Avg Sub Block 5"/>
+            <Column fieldName="Max Sub Block 5"/>
+          </Export>
+          <Compare>
+            <Column fieldName="Date"/>
+            <Column fieldName="Avg Sub Block 1"/>
+            <Column fieldName="Max Sub Block 1"/>
+            <Column fieldName="Avg Sub Block 2"/>
+            <Column fieldName="Max Sub Block 2"/>
+            <Column fieldName="Avg Sub Block 3"/>
+            <Column fieldName="Max Sub Block 3"/>
+            <Column fieldName="Avg Sub Block 4"/>
+            <Column fieldName="Max Sub Block 4"/>
+            <Column fieldName="Avg Sub Block 5"/>
+            <Column fieldName="Max Sub Block 5"/>
+          </Compare>
+          <MultiEdit>
+            <Column fieldName="Date"/>
+            <Column fieldName="Avg Sub Block 1"/>
+            <Column fieldName="Max Sub Block 1"/>
+            <Column fieldName="Avg Sub Block 2"/>
+            <Column fieldName="Max Sub Block 2"/>
+            <Column fieldName="Avg Sub Block 3"/>
+            <Column fieldName="Max Sub Block 3"/>
+            <Column fieldName="Avg Sub Block 4"/>
+            <Column fieldName="Max Sub Block 4"/>
+            <Column fieldName="Avg Sub Block 5"/>
+            <Column fieldName="Max Sub Block 5"/>
+          </MultiEdit>
+        </Columns>
+        <Details/>
+        <RecordPermissions useRecordPermissions="false"/>
+        <PartitionNavigators/>
+        <Charts>
+          <Chart name="Average_chart" title="Average Value Chart" type="3" height="400" width="4" domainColumnName="Date" domainColumnLabel="Date" domainColumnType="date">
+            <DataColumns>
+              <Column name="Avg Sub Block 1" label="Sub Block 1" type="float"/>
+              <Column name="Avg Sub Block 2" label="Sub Block 2" type="float"/>
+              <Column name="Avg Sub Block 3" label="Sub Block 3" type="float"/>
+              <Column name="Avg Sub Block 4" label="Sub Block 4" type="float"/>
+              <Column name="Avg Sub Block 5" label="Sub Block 5" type="float"/>
+            </DataColumns>
+            <SelectStatement>
+%source%            </SelectStatement>
+          </Chart>
+          <Chart name="Max_Chart" title="Maximum Value Chart" type="3" height="400" width="4" domainColumnName="Date" domainColumnLabel="Date" domainColumnType="date">
+            <DataColumns>
+              <Column name="Max Sub Block 1" label="Sub Block 1" type="float"/>
+              <Column name="Max Sub Block 2" label="Sub Block 2" type="float"/>
+              <Column name="Max Sub Block 3" label="Sub Block 3" type="float"/>
+              <Column name="Max Sub Block 4" label="Sub Block 4" type="float"/>
+              <Column name="Max Sub Block 5" label="Sub Block 5" type="float"/>
+            </DataColumns>
+            <SelectStatement>
+%source%            </SelectStatement>
+          </Chart>
+        </Charts>
+      </Page>
+      <Page type="table" tableName="decagon reading list" numberByDataSource="0" fileName="decagon_reading_list" caption="Decagon Reading List" shortCaption="Decagon Reading List" groupName="DECAGON" addSeparator="false" horizontalFilterCondition="" recordsPerPage="20" NavigatorPosition="3" insertAbilityMode="0" viewAbilityMode="0" editAbilityMode="0" multiEditAbility="0" copyAbilityMode="0" contentEncoding="UTF-8" exportAllRecordsAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" exportRecordFromViewFormAvailable="31" printAvailable="13" useActionImages="true" showKeyColumnsImagesInGridHeader="false">
+        <BeforeGridText/>
+        <DetailedDescription/>
+        <ColumnPresentations>
+          <ColumnPresentation fieldName="Date" caption="Date" selectedFilterOperators="2031871">
+            <ViewProperties type="dateTime" dateTimeKind="1"/>
+            <EditProperties type="dateTime" dateTimeFormat="Y-m-d" dateTimeKind="1" firstDayOfWeek="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Sub Block" caption="Sub Block" selectedFilterOperators="1589247">
+            <ViewProperties type="text"/>
+            <EditProperties type="comboBox">
+              <Values>
+                <Value name="1" caption="1"/>
+                <Value name="2" caption="2"/>
+                <Value name="3" caption="3"/>
+                <Value name="4" caption="4"/>
+                <Value name="5" caption="5"/>
+              </Values>
+            </EditProperties>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Ridges" caption="Ridges" selectedFilterOperators="1589247">
+            <ViewProperties type="text"/>
+            <EditProperties type="comboBox">
+              <Values>
+                <Value name="R1" caption="R1"/>
+                <Value name="R2" caption="R2"/>
+                <Value name="R3" caption="R3"/>
+                <Value name="R4" caption="R4"/>
+              </Values>
+            </EditProperties>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Sample" caption="Sample" showColumnFilter="false" canSetNull="true" selectedFilterOperators="1589247">
+            <ViewProperties type="text"/>
+            <EditProperties type="textBox" maxLength="4"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Soil Moisture" caption="Soil Moisture" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Soil Temperature" caption="Soil Temperature" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="EC" caption="EC" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+        </ColumnPresentations>
+        <Columns>
+          <List>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridges"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Soil Moisture"/>
+            <Column fieldName="Soil Temperature"/>
+            <Column fieldName="EC"/>
+          </List>
+          <View>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridges"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Soil Moisture"/>
+            <Column fieldName="Soil Temperature"/>
+            <Column fieldName="EC"/>
+          </View>
+          <Edit>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridges"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Soil Moisture"/>
+            <Column fieldName="Soil Temperature"/>
+            <Column fieldName="EC"/>
+          </Edit>
+          <Insert>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridges"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Soil Moisture"/>
+            <Column fieldName="Soil Temperature"/>
+            <Column fieldName="EC"/>
+          </Insert>
+          <QuickFilter>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridges"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Soil Moisture"/>
+            <Column fieldName="Soil Temperature"/>
+            <Column fieldName="EC"/>
+          </QuickFilter>
+          <FilterBuilder>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridges"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Soil Moisture"/>
+            <Column fieldName="Soil Temperature"/>
+            <Column fieldName="EC"/>
+          </FilterBuilder>
+          <Print>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridges"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Soil Moisture"/>
+            <Column fieldName="Soil Temperature"/>
+            <Column fieldName="EC"/>
+          </Print>
+          <Export>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridges"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Soil Moisture"/>
+            <Column fieldName="Soil Temperature"/>
+            <Column fieldName="EC"/>
+          </Export>
+          <Compare>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridges"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Soil Moisture"/>
+            <Column fieldName="Soil Temperature"/>
+            <Column fieldName="EC"/>
+          </Compare>
+          <MultiEdit>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridges"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="Soil Moisture"/>
+            <Column fieldName="Soil Temperature"/>
+            <Column fieldName="EC"/>
+          </MultiEdit>
+        </Columns>
+        <Details/>
+        <RecordPermissions useRecordPermissions="false"/>
+        <PartitionNavigators/>
+      </Page>
+      <Page type="table" tableName="greenseeker reading" numberByDataSource="0" fileName="greenseeker_reading" caption="Greenseeker Reading" shortCaption="Greenseeker Reading" groupName="GREENSEEKER" addSeparator="false" horizontalFilterCondition="" recordsPerPage="20" NavigatorPosition="3" insertAbilityMode="0" viewAbilityMode="0" editAbilityMode="0" multiEditAbility="0" copyAbilityMode="0" contentEncoding="UTF-8" exportAllRecordsAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" exportRecordFromViewFormAvailable="31" printAvailable="13" useActionImages="true" showKeyColumnsImagesInGridHeader="false">
+        <BeforeGridText/>
+        <DetailedDescription/>
+        <ColumnPresentations>
+          <ColumnPresentation fieldName="Date" caption="Date" selectedFilterOperators="2031871">
+            <ViewProperties type="dateTime" dateTimeKind="1"/>
+            <EditProperties type="dateTime" dateTimeFormat="Y-m-d" dateTimeKind="1" firstDayOfWeek="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Sub Block" caption="Sub Block" selectedFilterOperators="1589247">
+            <ViewProperties type="text"/>
+            <EditProperties type="comboBox">
+              <Values>
+                <Value name="1" caption="1"/>
+                <Value name="2" caption="2"/>
+                <Value name="3" caption="3"/>
+                <Value name="4" caption="4"/>
+                <Value name="5" caption="5"/>
+              </Values>
+            </EditProperties>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Ridge" caption="Ridge" selectedFilterOperators="1589247">
+            <ViewProperties type="text"/>
+            <EditProperties type="comboBox">
+              <Values>
+                <Value name="R1" caption="R1"/>
+                <Value name="R2" caption="R2"/>
+                <Value name="R3" caption="R3"/>
+                <Value name="R4" caption="R4"/>
+              </Values>
+            </EditProperties>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="Sample" caption="Sample" selectedFilterOperators="1589247">
+            <ViewProperties type="text"/>
+            <EditProperties type="comboBox">
+              <Values>
+                <Value name="S1" caption="S1"/>
+                <Value name="S2" caption="S2"/>
+                <Value name="S3" caption="S3"/>
+                <Value name="S4" caption="S4"/>
+              </Values>
+            </EditProperties>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="NDVI" caption="NDVI" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+        </ColumnPresentations>
+        <Columns>
+          <List>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridge"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="NDVI"/>
+          </List>
+          <View>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridge"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="NDVI"/>
+          </View>
+          <Edit>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridge"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="NDVI"/>
+          </Edit>
+          <Insert>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridge"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="NDVI"/>
+          </Insert>
+          <QuickFilter>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridge"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="NDVI"/>
+          </QuickFilter>
+          <FilterBuilder>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridge"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="NDVI"/>
+          </FilterBuilder>
+          <Print>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridge"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="NDVI"/>
+          </Print>
+          <Export>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridge"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="NDVI"/>
+          </Export>
+          <Compare>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridge"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="NDVI"/>
+          </Compare>
+          <MultiEdit>
+            <Column fieldName="Date"/>
+            <Column fieldName="Sub Block"/>
+            <Column fieldName="Ridge"/>
+            <Column fieldName="Sample"/>
+            <Column fieldName="NDVI"/>
+          </MultiEdit>
+        </Columns>
+        <Details/>
+        <RecordPermissions useRecordPermissions="false"/>
+        <PartitionNavigators/>
+      </Page>
+      <Page type="table" tableName="greenseeker analysis" numberByDataSource="0" fileName="greenseeker_analysis" caption="Greenseeker Analysis" shortCaption="Greenseeker Analysis" groupName="GREENSEEKER" addSeparator="false" horizontalFilterCondition="" recordsPerPage="20" NavigatorPosition="3" insertAbilityMode="0" viewAbilityMode="0" editAbilityMode="0" multiEditAbility="0" copyAbilityMode="0" contentEncoding="UTF-8" exportAllRecordsAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" exportRecordFromViewFormAvailable="31" printAvailable="13" useActionImages="true" showKeyColumnsImagesInGridHeader="false">
+        <BeforeGridText/>
+        <DetailedDescription/>
+        <ColumnPresentations>
+          <ColumnPresentation fieldName="Date" caption="Date" selectedFilterOperators="2031871">
+            <ViewProperties type="dateTime" dateTimeKind="1"/>
+            <EditProperties type="dateTime" dateTimeFormat="Y-m-d" dateTimeKind="1" firstDayOfWeek="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R1 Sub Block 1" caption="R1 Sub Block 1" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R1 Sub Block 2" caption="R1 Sub Block 2" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R1 Sub Block 3" caption="R1 Sub Block 3" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R1 Sub Block 4" caption="R1 Sub Block 4" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R1 Sub Block 5" caption="R1 Sub Block 5" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R2 Sub Block 1" caption="R2 Sub Block 1" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R2 Sub Block 2" caption="R2 Sub Block 2" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R2 Sub Block 3" caption="R2 Sub Block 3" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R2 Sub Block 4" caption="R2 Sub Block 4" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R2 Sub Block 5" caption="R2 Sub Block 5" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R3 Sub Block 1" caption="R3 Sub Block 1" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R3 Sub Block 2" caption="R3 Sub Block 2" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R3 Sub Block 3" caption="R3 Sub Block 3" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R3 Sub Block 4" caption="R3 Sub Block 4" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R3 Sub Block 5" caption="R3 Sub Block 5" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R4 Sub Block 1" caption="R4 Sub Block 1" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R4 Sub Block 2" caption="R4 Sub Block 2" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R4 Sub Block 3" caption="R4 Sub Block 3" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R4 Sub Block 4" caption="R4 Sub Block 4" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+          <ColumnPresentation fieldName="R4 Sub Block 5" caption="R4 Sub Block 5" showColumnFilter="false" selectedFilterOperators="1573119">
+            <ViewProperties type="text">
+              <Format type="number" numberAfterDecimal="4" decimalSeparator="." thousandSeparator=","/>
+            </ViewProperties>
+            <EditProperties type="textBox" maxLength="0"/>
+          </ColumnPresentation>
+        </ColumnPresentations>
+        <Columns>
+          <List>
+            <Column fieldName="Date"/>
+            <Column fieldName="R1 Sub Block 1"/>
+            <Column fieldName="R1 Sub Block 2"/>
+            <Column fieldName="R1 Sub Block 3"/>
+            <Column fieldName="R1 Sub Block 4"/>
+            <Column fieldName="R1 Sub Block 5"/>
+            <Column fieldName="R2 Sub Block 1"/>
+            <Column fieldName="R2 Sub Block 2"/>
+            <Column fieldName="R2 Sub Block 3"/>
+            <Column fieldName="R2 Sub Block 4"/>
+            <Column fieldName="R2 Sub Block 5"/>
+            <Column fieldName="R3 Sub Block 1"/>
+            <Column fieldName="R3 Sub Block 2"/>
+            <Column fieldName="R3 Sub Block 3"/>
+            <Column fieldName="R3 Sub Block 4"/>
+            <Column fieldName="R3 Sub Block 5"/>
+            <Column fieldName="R4 Sub Block 1"/>
+            <Column fieldName="R4 Sub Block 2"/>
+            <Column fieldName="R4 Sub Block 3"/>
+            <Column fieldName="R4 Sub Block 4"/>
+            <Column fieldName="R4 Sub Block 5"/>
+          </List>
+          <View>
+            <Column fieldName="Date"/>
+            <Column fieldName="R1 Sub Block 1"/>
+            <Column fieldName="R1 Sub Block 2"/>
+            <Column fieldName="R1 Sub Block 3"/>
+            <Column fieldName="R1 Sub Block 4"/>
+            <Column fieldName="R1 Sub Block 5"/>
+            <Column fieldName="R2 Sub Block 1"/>
+            <Column fieldName="R2 Sub Block 2"/>
+            <Column fieldName="R2 Sub Block 3"/>
+            <Column fieldName="R2 Sub Block 4"/>
+            <Column fieldName="R2 Sub Block 5"/>
+            <Column fieldName="R3 Sub Block 1"/>
+            <Column fieldName="R3 Sub Block 2"/>
+            <Column fieldName="R3 Sub Block 3"/>
+            <Column fieldName="R3 Sub Block 4"/>
+            <Column fieldName="R3 Sub Block 5"/>
+            <Column fieldName="R4 Sub Block 1"/>
+            <Column fieldName="R4 Sub Block 2"/>
+            <Column fieldName="R4 Sub Block 3"/>
+            <Column fieldName="R4 Sub Block 4"/>
+            <Column fieldName="R4 Sub Block 5"/>
+          </View>
+          <Edit>
+            <Column fieldName="Date"/>
+            <Column fieldName="R1 Sub Block 1"/>
+            <Column fieldName="R1 Sub Block 2"/>
+            <Column fieldName="R1 Sub Block 3"/>
+            <Column fieldName="R1 Sub Block 4"/>
+            <Column fieldName="R1 Sub Block 5"/>
+            <Column fieldName="R2 Sub Block 1"/>
+            <Column fieldName="R2 Sub Block 2"/>
+            <Column fieldName="R2 Sub Block 3"/>
+            <Column fieldName="R2 Sub Block 4"/>
+            <Column fieldName="R2 Sub Block 5"/>
+            <Column fieldName="R3 Sub Block 1"/>
+            <Column fieldName="R3 Sub Block 2"/>
+            <Column fieldName="R3 Sub Block 3"/>
+            <Column fieldName="R3 Sub Block 4"/>
+            <Column fieldName="R3 Sub Block 5"/>
+            <Column fieldName="R4 Sub Block 1"/>
+            <Column fieldName="R4 Sub Block 2"/>
+            <Column fieldName="R4 Sub Block 3"/>
+            <Column fieldName="R4 Sub Block 4"/>
+            <Column fieldName="R4 Sub Block 5"/>
+          </Edit>
+          <Insert>
+            <Column fieldName="Date"/>
+            <Column fieldName="R1 Sub Block 1"/>
+            <Column fieldName="R1 Sub Block 2"/>
+            <Column fieldName="R1 Sub Block 3"/>
+            <Column fieldName="R1 Sub Block 4"/>
+            <Column fieldName="R1 Sub Block 5"/>
+            <Column fieldName="R2 Sub Block 1"/>
+            <Column fieldName="R2 Sub Block 2"/>
+            <Column fieldName="R2 Sub Block 3"/>
+            <Column fieldName="R2 Sub Block 4"/>
+            <Column fieldName="R2 Sub Block 5"/>
+            <Column fieldName="R3 Sub Block 1"/>
+            <Column fieldName="R3 Sub Block 2"/>
+            <Column fieldName="R3 Sub Block 3"/>
+            <Column fieldName="R3 Sub Block 4"/>
+            <Column fieldName="R3 Sub Block 5"/>
+            <Column fieldName="R4 Sub Block 1"/>
+            <Column fieldName="R4 Sub Block 2"/>
+            <Column fieldName="R4 Sub Block 3"/>
+            <Column fieldName="R4 Sub Block 4"/>
+            <Column fieldName="R4 Sub Block 5"/>
+          </Insert>
+          <QuickFilter>
+            <Column fieldName="Date"/>
+            <Column fieldName="R1 Sub Block 1"/>
+            <Column fieldName="R1 Sub Block 2"/>
+            <Column fieldName="R1 Sub Block 3"/>
+            <Column fieldName="R1 Sub Block 4"/>
+            <Column fieldName="R1 Sub Block 5"/>
+            <Column fieldName="R2 Sub Block 1"/>
+            <Column fieldName="R2 Sub Block 2"/>
+            <Column fieldName="R2 Sub Block 3"/>
+            <Column fieldName="R2 Sub Block 4"/>
+            <Column fieldName="R2 Sub Block 5"/>
+            <Column fieldName="R3 Sub Block 1"/>
+            <Column fieldName="R3 Sub Block 2"/>
+            <Column fieldName="R3 Sub Block 3"/>
+            <Column fieldName="R3 Sub Block 4"/>
+            <Column fieldName="R3 Sub Block 5"/>
+            <Column fieldName="R4 Sub Block 1"/>
+            <Column fieldName="R4 Sub Block 2"/>
+            <Column fieldName="R4 Sub Block 3"/>
+            <Column fieldName="R4 Sub Block 4"/>
+            <Column fieldName="R4 Sub Block 5"/>
+          </QuickFilter>
+          <FilterBuilder>
+            <Column fieldName="Date"/>
+            <Column fieldName="R1 Sub Block 1"/>
+            <Column fieldName="R1 Sub Block 2"/>
+            <Column fieldName="R1 Sub Block 3"/>
+            <Column fieldName="R1 Sub Block 4"/>
+            <Column fieldName="R1 Sub Block 5"/>
+            <Column fieldName="R2 Sub Block 1"/>
+            <Column fieldName="R2 Sub Block 2"/>
+            <Column fieldName="R2 Sub Block 3"/>
+            <Column fieldName="R2 Sub Block 4"/>
+            <Column fieldName="R2 Sub Block 5"/>
+            <Column fieldName="R3 Sub Block 1"/>
+            <Column fieldName="R3 Sub Block 2"/>
+            <Column fieldName="R3 Sub Block 3"/>
+            <Column fieldName="R3 Sub Block 4"/>
+            <Column fieldName="R3 Sub Block 5"/>
+            <Column fieldName="R4 Sub Block 1"/>
+            <Column fieldName="R4 Sub Block 2"/>
+            <Column fieldName="R4 Sub Block 3"/>
+            <Column fieldName="R4 Sub Block 4"/>
+            <Column fieldName="R4 Sub Block 5"/>
+          </FilterBuilder>
+          <Print>
+            <Column fieldName="Date"/>
+            <Column fieldName="R1 Sub Block 1"/>
+            <Column fieldName="R1 Sub Block 2"/>
+            <Column fieldName="R1 Sub Block 3"/>
+            <Column fieldName="R1 Sub Block 4"/>
+            <Column fieldName="R1 Sub Block 5"/>
+            <Column fieldName="R2 Sub Block 1"/>
+            <Column fieldName="R2 Sub Block 2"/>
+            <Column fieldName="R2 Sub Block 3"/>
+            <Column fieldName="R2 Sub Block 4"/>
+            <Column fieldName="R2 Sub Block 5"/>
+            <Column fieldName="R3 Sub Block 1"/>
+            <Column fieldName="R3 Sub Block 2"/>
+            <Column fieldName="R3 Sub Block 3"/>
+            <Column fieldName="R3 Sub Block 4"/>
+            <Column fieldName="R3 Sub Block 5"/>
+            <Column fieldName="R4 Sub Block 1"/>
+            <Column fieldName="R4 Sub Block 2"/>
+            <Column fieldName="R4 Sub Block 3"/>
+            <Column fieldName="R4 Sub Block 4"/>
+            <Column fieldName="R4 Sub Block 5"/>
+          </Print>
+          <Export>
+            <Column fieldName="Date"/>
+            <Column fieldName="R1 Sub Block 1"/>
+            <Column fieldName="R1 Sub Block 2"/>
+            <Column fieldName="R1 Sub Block 3"/>
+            <Column fieldName="R1 Sub Block 4"/>
+            <Column fieldName="R1 Sub Block 5"/>
+            <Column fieldName="R2 Sub Block 1"/>
+            <Column fieldName="R2 Sub Block 2"/>
+            <Column fieldName="R2 Sub Block 3"/>
+            <Column fieldName="R2 Sub Block 4"/>
+            <Column fieldName="R2 Sub Block 5"/>
+            <Column fieldName="R3 Sub Block 1"/>
+            <Column fieldName="R3 Sub Block 2"/>
+            <Column fieldName="R3 Sub Block 3"/>
+            <Column fieldName="R3 Sub Block 4"/>
+            <Column fieldName="R3 Sub Block 5"/>
+            <Column fieldName="R4 Sub Block 1"/>
+            <Column fieldName="R4 Sub Block 2"/>
+            <Column fieldName="R4 Sub Block 3"/>
+            <Column fieldName="R4 Sub Block 4"/>
+            <Column fieldName="R4 Sub Block 5"/>
+          </Export>
+          <Compare>
+            <Column fieldName="Date"/>
+            <Column fieldName="R1 Sub Block 1"/>
+            <Column fieldName="R1 Sub Block 2"/>
+            <Column fieldName="R1 Sub Block 3"/>
+            <Column fieldName="R1 Sub Block 4"/>
+            <Column fieldName="R1 Sub Block 5"/>
+            <Column fieldName="R2 Sub Block 1"/>
+            <Column fieldName="R2 Sub Block 2"/>
+            <Column fieldName="R2 Sub Block 3"/>
+            <Column fieldName="R2 Sub Block 4"/>
+            <Column fieldName="R2 Sub Block 5"/>
+            <Column fieldName="R3 Sub Block 1"/>
+            <Column fieldName="R3 Sub Block 2"/>
+            <Column fieldName="R3 Sub Block 3"/>
+            <Column fieldName="R3 Sub Block 4"/>
+            <Column fieldName="R3 Sub Block 5"/>
+            <Column fieldName="R4 Sub Block 1"/>
+            <Column fieldName="R4 Sub Block 2"/>
+            <Column fieldName="R4 Sub Block 3"/>
+            <Column fieldName="R4 Sub Block 4"/>
+            <Column fieldName="R4 Sub Block 5"/>
+          </Compare>
+          <MultiEdit>
+            <Column fieldName="Date"/>
+            <Column fieldName="R1 Sub Block 1"/>
+            <Column fieldName="R1 Sub Block 2"/>
+            <Column fieldName="R1 Sub Block 3"/>
+            <Column fieldName="R1 Sub Block 4"/>
+            <Column fieldName="R1 Sub Block 5"/>
+            <Column fieldName="R2 Sub Block 1"/>
+            <Column fieldName="R2 Sub Block 2"/>
+            <Column fieldName="R2 Sub Block 3"/>
+            <Column fieldName="R2 Sub Block 4"/>
+            <Column fieldName="R2 Sub Block 5"/>
+            <Column fieldName="R3 Sub Block 1"/>
+            <Column fieldName="R3 Sub Block 2"/>
+            <Column fieldName="R3 Sub Block 3"/>
+            <Column fieldName="R3 Sub Block 4"/>
+            <Column fieldName="R3 Sub Block 5"/>
+            <Column fieldName="R4 Sub Block 1"/>
+            <Column fieldName="R4 Sub Block 2"/>
+            <Column fieldName="R4 Sub Block 3"/>
+            <Column fieldName="R4 Sub Block 4"/>
+            <Column fieldName="R4 Sub Block 5"/>
+          </MultiEdit>
+        </Columns>
+        <Details/>
+        <RecordPermissions useRecordPermissions="false"/>
+        <PartitionNavigators/>
+        <Charts>
+          <Chart name="r1" title="Average NDVI Value Sub Block 1" type="3" width="5" domainColumnName="Date" domainColumnLabel="Date" domainColumnType="date">
+            <DataColumns>
+              <Column name="R1 Sub Block 1" label="R1" type="float"/>
+              <Column name="R2 Sub Block 1" label="R2" type="float"/>
+              <Column name="R3 Sub Block 1" label="R3" type="float"/>
+              <Column name="R4 Sub Block 1" label="R4" type="float"/>
+            </DataColumns>
+            <SelectStatement>
+%source%            </SelectStatement>
+          </Chart>
+          <Chart name="r2" title="Average NDVI Value Sub Block 2" type="3" width="5" domainColumnName="Date" domainColumnLabel="Date" domainColumnType="date">
+            <DataColumns>
+              <Column name="R1 Sub Block 2" label="R1" type="float"/>
+              <Column name="R2 Sub Block 2" label="R2" type="float"/>
+              <Column name="R3 Sub Block 2" label="R3" type="float"/>
+              <Column name="R4 Sub Block 2" label="R4" type="float"/>
+            </DataColumns>
+            <SelectStatement>
+%source%            </SelectStatement>
+          </Chart>
+          <Chart name="r3" title="Average NDVI Value Sub Block 3" type="3" width="5" domainColumnName="Date" domainColumnLabel="Date" domainColumnType="date">
+            <DataColumns>
+              <Column name="R1 Sub Block 3" label="R1" type="float"/>
+              <Column name="R2 Sub Block 3" label="R2" type="float"/>
+              <Column name="R3 Sub Block 3" label="R3" type="float"/>
+              <Column name="R4 Sub Block 3" label="R4" type="float"/>
+            </DataColumns>
+            <SelectStatement>
+%source%            </SelectStatement>
+          </Chart>
+          <Chart name="r4" title="Average NDVI Value Sub Block 4" type="3" width="5" domainColumnName="Date" domainColumnLabel="Date" domainColumnType="date">
+            <DataColumns>
+              <Column name="R4 Sub Block 4" label="R4" type="float"/>
+              <Column name="R2 Sub Block 4" label="R2" type="float"/>
+              <Column name="R3 Sub Block 4" label="R3" type="float"/>
+              <Column name="R1 Sub Block 4" label="R1" type="float"/>
+            </DataColumns>
+            <SelectStatement>
+%source%            </SelectStatement>
+          </Chart>
+          <Chart name="r5" title="Average NDVI Value Sub Block 5" type="3" width="5" domainColumnName="Date" domainColumnLabel="Date" domainColumnType="date">
+            <DataColumns>
+              <Column name="R1 Sub Block 5" label="R1" type="float"/>
+              <Column name="R2 Sub Block 5" label="R2" type="float"/>
+              <Column name="R3 Sub Block 5" label="R3" type="float"/>
+              <Column name="R4 Sub Block 5" label="R4" type="float"/>
+            </DataColumns>
+            <SelectStatement>
+%source%            </SelectStatement>
+          </Chart>
+        </Charts>
+      </Page>
+    </Pages>
+    <UserAuthorization/>
+    <UserGrants enableGuestAccess="false">
+      <UserPageGrants/>
+    </UserGrants>
+    <Header/>
+    <Footer/>
+    <PHPOptions/>
+    <Groups>
+      <Group caption="No group"/>
+      <Group caption="SPAD"/>
+      <Group caption="GREENSEEKER"/>
+      <Group caption="DECAGON"/>
+    </Groups>
+    <outgoingMailSettings mailer="0" fromEmail="" fromName=""/>
+  </Presentation>
+  <UserCSS/>
+  <PdfUserStyles/>
+  <PrintUserStyles/>
+  <UserJS/>
+  <ExcludedPaths/>
+  <DefaultPageProperties recordsPerPage="20" NavigatorPosition="3" insertAbilityMode="1" deleteAbilityMode="3" deleteSelectedAbilityMode="3" contentEncoding="UTF-8" exportAllRecordsAvailable="31" exportSelectedRecordsAvailable="31" exportSingleRecordFromGridAvailable="0" exportRecordFromViewFormAvailable="31" printAvailable="13" useActionImages="true" showKeyColumnsImagesInGridHeader="false"/>
+  <DefaultDataFormats numberAfterDecimal="4" DecimalSeparator="." ThousandSeparator="," DateTimeFormat="Y-m-d H:i:s" DateFormat="Y-m-d" firstDayOfWeek="0"/>
+</Project>
